@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Live Weather</h1>
+        
+    <p id="privacyNote">
+        This app stores your last searched city in your browser to personalize your weather experience. No data is sent to third parties.
+    </p>
+
+    <div id="personalizedMessage" aria-live="polite"></div>
+
+    <!-- User input -->
+    <input type="text" id="cityInput" placeholder="Enter city name">
+
+    
+    
+    <!-- Button to trigger API call -->
+    <button id="searchBtn">Get Weather</button>
+
+    
+
+    <!-- Container for displaying results -->
+    <div id="weatherResult">
+        Weather data will appear here.
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
